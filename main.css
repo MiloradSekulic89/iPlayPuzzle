@@ -22,8 +22,23 @@
   
 }
 
+.carousel-inner {
+
+  
+  object-position: center;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+.top-container{
+
+  width: 100%;
+}
+
 .main-container{
 
+  margin-top: 50px;
   color: aqua;
   
   display:flexbox;
