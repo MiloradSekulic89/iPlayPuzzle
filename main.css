@@ -33,7 +33,12 @@
 
 .top-container{
 
-  width: 100%;
+  float: left;
+
+  padding-top: 5%;
+  
+  width: 40%;
+  display: inline-block;
 }
 
 .main-container{
@@ -41,9 +46,9 @@
   margin-top: 50px;
   color: aqua;
   
-  display:flexbox;
-  display: inline-block;
-  flex-wrap: wrap;
+  float: left;
+  display: flexbox;
+ 
   
   
   
@@ -79,7 +84,7 @@
   font-weight: bold;
   background-color:rgba(0, 0, 0, 0.384);
   text-align: center;
-  display: block;
+  display: inline-block;
  
 
 }
@@ -87,11 +92,13 @@
 .content{
 
   
-  
-    display: inline-block;
+  vertical-align: top;
+    display:inline-block;
+    float: left;
+    width: 150px;
     
   background-color: rgba(0, 0, 0, 0.658);
-  width: 150px;
+  
   margin-left: 16px;
   margin-bottom: 10px;
   text-align: center;
@@ -122,11 +129,10 @@
 
 .game{
 
-  padding-bottom:56.25%; 
-  position:relative; 
-  display:block; 
+  
+  float: left;
+  display:inline-block;
  
-  width: 100%
   
 
 }
@@ -217,4 +223,19 @@ width: 100vw;
 .dropdown:hover .dropdown-content{
 
   display: block;
+}
+
+@media screen and (max-width:800px) {
+
+  .top-container{
+
+    
+  
+    
+    
+    width: 100%;
+    display: inline-block;
+  }
+  
+  
 }
