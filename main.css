@@ -1,8 +1,11 @@
 .body{
 
   background-image: url("img/pexels-photo-1169754.jpg");
-  
+  border: solid;
+  border-color: aqua;
+  width: 100vw;
 }
+
 
 .logo{
 
@@ -16,13 +19,17 @@
 
 .header{
 
+  margin-top: 50px;
   background-color: rgba(0, 0, 0, 0.384);
   color: aqua;
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   display: block;
+  width: 100vw;
   
 }
+
+
 
 .carousel-inner {
 
@@ -32,148 +39,66 @@
   overflow: hidden;
 }
 
+.category-sidebar{
 
-.top-container{
-
-  float: left;
-
-  padding-top: 5%;
+  border: solid;
   
-  width: 40%;
-  display: inline-block;
+  border-color: green;
+  background-image: url("/img/headermatch3.jpg");
+  background-size: contain;
+  height: 8.1vw;
+  
 }
 
-.main-container{
+
+
+
+
+
+
+
+
+
+
+
+
+.slideshow{
+
+  
+  border: solid;
 
   margin-top: 50px;
-  color: aqua;
+  border-color: red;
   
-  float: left;
-  display: flexbox;
- 
-  
-  
-  
-  width: 100%;
-}
 
-.topimage-container{
-
-  background-color: rgba(0, 0, 0, 0.747);
-  display: inline-block;
-  
-  
-}
-.top-games{
-
-  margin-right: 10px;
-  
-  width: 150px;
-  
-  opacity: 0.5;
-  transition: opacity 1s;
-}
-
-.top-games:hover{
-
-  opacity: 1;
-}
-.allgames{
-
-
-  font-size: 30px;
-  color: aqua;
-  font-weight: bold;
-  background-color:rgba(0, 0, 0, 0.384);
-  text-align: center;
-  display: inline-block;
- 
-
-}
-
-.content{
-
-  
-  vertical-align: top;
-    display:inline-block;
-    float: left;
-    width: 150px;
-    
-  background-color: rgba(0, 0, 0, 0.658);
-  
-  margin-left: 16px;
-  margin-bottom: 10px;
   text-align: center;
   
-  
-  
-  
+  width: 50vw;
+  display: inline-block;
 }
 
-  
-  .play{
-
-    color: aqua;
-    background-color: black;
-    cursor: pointer;
-    border: solid;
-    border-color: aqua;
-    border-radius: 25px;
-    transition: background-color 1s;
-  }
-
-  .play:hover{
-
-    background-color: red;
-  }
-  
 
 
 .game{
 
-  
-  float: left;
-  display:inline-block;
- 
-  
-
-}
-
-
-.item-name{
-
+  font-size: 15px;
+  font-weight: bold;
   text-align: center;
+
+  background-color: rgba(0, 0, 0, 0.575);
+  margin-top: 50px;
+  display: inline-block;
+  border: solid;
   color: aqua;
+  width: 15vw;
+  
 }
 
 .thumbnail{
 
-  width: 100%;
-  
+  width: 90%;
 }
 
-.play{
-
- 
- margin-top: 10px;
- font-size: 20px;
-
-}
-
-
-
-.footer{
-
-margin-top: 20px;
-
-
-background-color: rgba(0, 0, 0, 0.658);
-color: white;
-text-align: center;
-width: 100vw;
-
-
-}
 
 .dropbtn {
   background-color: rgba(0, 0, 0, 0.075);
@@ -230,17 +155,28 @@ width: 100vw;
   display: block;
 }
 
+
+
 @media screen and (max-width:800px) {
 
-  .top-container{
+  .slideshow{
 
-    
-  
-    
-    
-    width: 100%;
-    display: inline-block;
+    width: 99vw;
   }
-  
+
+  .game{
+
+    font-size: 12px;
+    font-weight: bold;
+    width: 30vw;
+  }
+
+  .category-sidebar{
+
+    height: 10vw;
+  }
+
+ 
+
   
 }
