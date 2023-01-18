@@ -70,7 +70,7 @@
   
  
 
-  margin-top: 20px;
+  margin-top: 50px;
   
   
 
@@ -160,10 +160,11 @@
 
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:1000px) {
 
   .slideshow{
 
+    margin-top: 100px;
     width: 99vw;
   }
 
