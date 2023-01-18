@@ -1,8 +1,7 @@
 .body{
 
   background-image: url("img/pexels-photo-1169754.jpg");
-  border: solid;
-  border-color: aqua;
+  
   width: 100vw;
 }
 
@@ -41,13 +40,17 @@
 
 .category-sidebar{
 
-  border: solid;
   
-  border-color: green;
-  background-image: url("/img/headermatch3.jpg");
-  background-size: contain;
-  height: 8.1vw;
+ 
+  width: 100%;
   
+  
+  
+}
+
+.sidebarimage{
+
+  width: 100%;
 }
 
 
@@ -65,10 +68,10 @@
 .slideshow{
 
   
-  border: solid;
+ 
 
-  margin-top: 50px;
-  border-color: red;
+  margin-top: 20px;
+  
   
 
   text-align: center;
@@ -173,7 +176,7 @@
 
   .category-sidebar{
 
-    height: 10vw;
+    height: 3.86vh;
   }
 
  
