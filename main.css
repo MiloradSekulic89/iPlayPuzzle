@@ -45,9 +45,16 @@
   
   display: inline-block;
 }
+
+.ad2{
+
+  display: none;
+}
 .ad1{
 
+  
   margin-left: 200px;
+  overflow:inherit;
 }
 .slideshow{
 
@@ -199,7 +206,12 @@
 
  .ad1{
 
-  margin: 0;
+  display: none;
+ }
+
+ .ad2{
+
+  display: block;
  }
 
   
