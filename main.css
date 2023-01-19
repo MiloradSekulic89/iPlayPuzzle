@@ -1,6 +1,8 @@
 .body{
 
-  background-image: url("img/pexels-photo-1169754.jpg");
+  background-image: url("img/5570863.jpg");
+
+  background-size: contain;
   
   width: 100vw;
 }
@@ -8,9 +10,9 @@
 
 .logo{
 
-  width: 15vw;
-  opacity: 1;
-  border-radius: 200px;
+  
+  
+  
   display: inline-block;
   
   
@@ -19,8 +21,8 @@
 .header{
 
   margin-top: 50px;
-  background-color: rgba(0, 0, 0, 0.384);
-  color: aqua;
+  background-color:rgba(255, 255, 255, 0.719);
+  color: black;
   text-align: center;
   font-size: 20px;
   display: block;
@@ -38,48 +40,35 @@
   overflow: hidden;
 }
 
-.category-sidebar{
-
-  
- 
-  width: 100%;
-  
-  
-  
-}
-
-.sidebarimage{
-
-  width: 100%;
-}
-
-
-
-
-
-
-
-
-
-
-
 
 
 .slideshow{
 
-  
- 
-
   margin-top: 50px;
-  
-  
+  padding-left: 100px;
+  padding-right: 100px;
 
   text-align: center;
   
-  width: 50vw;
-  display: inline-block;
+  width: 92vw;
+  
+  display: block;
 }
 
+.main-container{
+
+
+  
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 50px;
+  width: 99vw;
+  padding: 90px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  
+  height: fit-content;
+}
 
 
 .game{
@@ -88,10 +77,10 @@
   font-weight: bold;
   text-align: center;
 
-  background-color: rgba(0, 0, 0, 0.575);
+  background-color: rgba(248, 248, 248, 0.822);
   margin-top: 50px;
   display: inline-block;
-  color: aqua;
+  color: rgb(0, 0, 0);
   width: 15vw;
   
 }
@@ -101,13 +90,19 @@
   width: 90%;
 }
 
+.play{
 
+  color: red;
+  margin-top: 10px;
+  border: none;
+  font-size: 20px;
+}
 .dropbtn {
   background-color: rgba(0, 0, 0, 0.075);
   border-radius: 15%;
-  color: aqua;
+  color: red;
   padding: 2px;
-  font-size: 40px;
+  font-size: 20px;
   width: 50px;
   border: none;
   transition: background-color 1s;
@@ -136,12 +131,12 @@
 }
 
 .dropdown-content a {
-  color: aqua;
+  color: red;
   padding: 12px 16px;
   padding-bottom: 20px;
   text-decoration: none;
   display: block;
-  background-color: black;
+  background-color: white;
   transition: ease-in-out;
   
 }
@@ -157,14 +152,25 @@
   display: block;
 }
 
+.footer{
 
+  margin-top: 10px;
+}
 
 @media screen and (max-width:1000px) {
 
+  .body{
+
+    background-size: contain;
+  }
+  
+  
+  
   .slideshow{
 
     margin-top: 100px;
     width: 99vw;
+    padding: 0px;
   }
 
   .game{
@@ -174,9 +180,11 @@
     width: 30vw;
   }
 
-  .category-sidebar{
 
-    height: 3.86vh;
+  .main-container{
+
+    width: 99vw;
+    padding: 0px;
   }
 
  
